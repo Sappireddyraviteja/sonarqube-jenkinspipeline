@@ -10,7 +10,7 @@ node {
       -D sonar.password=admin \
       -D sonar.projectKey=sonarQubetest \
       -D sonar.exclusions=vendor/**,resources/**,**/*.java \
-      -D sonar.host.url=http://65.2.130.29::9000/"
+      -D sonar.host.url=http://65.2.130.29:9000/"
     }
   }
 }
